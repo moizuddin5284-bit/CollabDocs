@@ -33,11 +33,8 @@
 - **Live deployment URL.** This exercise was completed inside a sandboxed
   build environment without the ability to create external accounts or
   deploy to a public host. The code is deploy-ready (see "Next step:
-  deployment" below), but no live URL is included in this submission.
-- **Walkthrough video.** For the same reason, no video was recorded. A
-  suggested script/outline is below.
-- **Google Drive folder.** This submission is a local folder; it hasn't
-  been uploaded to Drive.
+  deployment" below), but no live URL is included in this submission. Only i am providing the frontend deployment link     collab-docs-git-main-moizuddin5284-bit.vercel.app. 
+- **Walkthrough video.** Video is uploaded in drive.
 - Real-time collaboration, comments, version history, PDF/Markdown export,
   and `.docx` import were out of scope by design — see `ARCHITECTURE.md`.
 
@@ -45,31 +42,8 @@
 
 The fastest path with no paid dependency:
 
-1. **Backend** → deploy `server/` to [Render](https://render.com) (free web
-   service tier) or [Railway](https://railway.app): `npm install && npm start`,
-   expose port via `PORT` env var (already read from `process.env.PORT`).
-   SQLite's `data.sqlite` file will live on the instance's disk — fine for a
-   review deployment; note that most free tiers reset the filesystem on
-   redeploy, which is worth calling out to reviewers.
-2. **Frontend** → deploy `client/` to [Vercel](https://vercel.com) or
-   [Netlify](https://netlify.com): `npm run build`, publish `dist/`. Set the
-   `VITE_API_URL` env var to the deployed backend's URL.
-3. Update this file and the README with the live URL once deployed.
+1. **Backend** → not deployed
+2. **Frontend** → deploy `client/` to [Vercel](https://vercel.com) and url is collab-docs-git-main-moizuddin5284-bit.vercel.app
 
-## Next step: walkthrough video (suggested outline, ~4 min)
 
-1. (30s) What this is: a scoped Google Docs-inspired editor — creation,
-   editing, upload, sharing, persistence.
-2. (60s) Main flow: log in as Amina → create a document → format some text
-   → rename it → refresh the page to show it persisted.
-3. (45s) Upload: drop in a `.md` file, show it becomes a formatted document.
-4. (60s) Sharing: share the new document with Kofi (view access) → switch
-   accounts → show it under "Shared with you" → attempt to edit → show it's
-   blocked, then go back to Amina and upgrade Kofi to edit access.
-5. (30s) What was deprioritized and why (real-time collab, `.docx` import,
-   version history) — point to `ARCHITECTURE.md`.
-6. (30s) How AI was used — point to `AI_WORKFLOW.md`.
 
-## With another 2–4 hours
-
-See "With another 2–4 hours, I'd build next" in `README.md`.
