@@ -1,0 +1,20 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="fav-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#4338ca" />
+    </linearGradient>
+    <linearGradient id="fav-doc" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#e0e7ff" />
+    </linearGradient>
+  </defs>
+  <rect width="40" height="40" rx="10" fill="url(#fav-bg)" />
+  <rect x="9" y="8" width="18" height="23" rx="3" fill="#a5b4fc" opacity="0.45" />
+  <path d="M13 11C13 9.89543 13.8954 9 15 9H23.5L29 14.5V28C29 29.1046 28.1046 30 27 30H15C13.8954 30 13 29.1046 13 28V11Z" fill="url(#fav-doc)" />
+  <path d="M23.5 9V13.5C23.5 14.0523 23.9477 14.5 24.5 14.5H29L23.5 9Z" fill="#c7d2fe" />
+  <rect x="16.5" y="16.5" width="6" height="2" rx="1" fill="#4f46e5" />
+  <rect x="16.5" y="20.5" width="9" height="2" rx="1" fill="#6366f1" opacity="0.8" />
+  <rect x="16.5" y="24.5" width="7" height="2" rx="1" fill="#6366f1" opacity="0.8" />
+  <circle cx="28.5" cy="27.5" r="4.5" fill="#38bdf8" stroke="#ffffff" stroke-width="1.5" />
+</svg>
